@@ -1,0 +1,26 @@
+.about-us-section {
+    background-color: #1a1a1a;
+    padding: 80px 20px;
+    color: #FFFFFF;
+  }
+  
+  .about-us-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .about-us-title {
+    font-size: 2.5rem;
+    color: #00CCFF;
+    margin-bottom: 30px;
+  }
+  
+  .about-us-description {
+    font-size: 1.2rem;
+    color: #B0B0B0;
+    line-height: 1.8;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+      

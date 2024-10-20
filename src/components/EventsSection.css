@@ -1,0 +1,84 @@
+.events-section {
+    background-color: #1a1a1a;
+    padding: 60px 20px;
+    overflow: hidden; 
+  }
+  
+  .events-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .events-title {
+    color: #00CCFF;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  
+ 
+  @keyframes shuffle {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .events-grid {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    animation: shuffle 20s linear infinite; 
+  }
+  
+
+  .event-card {
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+    padding: 20px;
+    flex: 0 0 auto; 
+  }
+  
+  .event-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .event-title {
+    font-size: 1.8rem;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+  }
+  
+  .event-description {
+    color: #B0B0B0;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  
+  .btn-learn-more {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00CCFF;
+    color: #000;
+    text-transform: uppercase;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-learn-more:hover {
+    background-color: #9747FF;
+  }
+  
+
+
+
+  
+  
